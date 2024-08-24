@@ -1,0 +1,153 @@
+.ourcars {
+    padding-top: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.top-ourcars {
+    display: flex;
+    align-items: center;
+    gap: 557px;
+}
+
+.ourcars-title {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-ourcars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.car-card-01 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 360px;
+    box-shadow: (0px 4px 30px rgba(0, 0, 0, 0.10));
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.10));
+}
+
+.voir-annonce {
+    border-radius: 5px;
+    background: #1959D6;
+    display: flex;
+    padding: 10px 10px;
+    margin: auto;
+    width: 90%;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-minicooper {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.title-car,
+.couleur-car,
+.prix-car {
+    margin: 10px;
+}
+
+.title-car {
+    font-weight: 800;
+}
+
+.prix-car {
+    font-weight: 800;
+    color: #1959D6
+}
+
+/* Adjust the styles based on your preferences */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.car-card.in-panier {
+  border-color: #28a745; /* Adjust the color to indicate it's in the panier */
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+.car-image {
+  width: 350px;
+  height: 265px;
+  object-fit: cover;
+}
+
+.car-details {
+  padding: 16px;
+}
+
+.car-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.car-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.car-property {
+  font-size: 14px;
+  color: #666;
+}
+
+.car-price {
+  font-size: 18px;
+  color: #007bff;
+  margin-top: 12px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.voir-annonce-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.voir-annonce-button:hover {
+  background-color: #0056b3;
+}
+
+.voir-annonce-button a {
+  text-decoration: none;
+  color: #fff;
+}

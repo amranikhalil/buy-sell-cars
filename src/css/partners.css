@@ -1,0 +1,43 @@
+.markes-partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 73px;
+    flex-wrap: wrap;
+    background-color: #DADADA;
+    width: 100%;
+    height: 150px;
+}
+
+.Audi {
+    opacity: 0.4;
+}
+
+.Ford {
+    opacity: 0.4;
+}
+
+.Gmc {
+    opacity: 0.4;
+}
+
+.Hyundai {
+    opacity: 0.4;
+}
+
+.Kia {
+    opacity: 0.4;
+}
+
+.Opel {
+    opacity: 0.4;
+}
+
+.Peageot {
+    opacity: 0.4;
+}
+
+.Seat {
+    opacity: 0.4;
+}

@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px 10%;
+}
+
+
+
+.button-login {
+    border: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.nav-ul {
+    opacity: 0.4;
+    display: flex;
+    align-items: flex-start;
+    gap: 85px;
+    font-size: 16px;
+}
+
+
+
+a {
+    font-size: 14px;
+}
+
+.Actionbuttons {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+
+}
+
+.button-getstarted {
+    border-radius: 5px;
+    background: #1959D6;
+    display: flex;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.getstarted-text {
+    color: white;
+    font-weight: 400;
+}
+
+.login-text {
+    font-weight: 600;
+}

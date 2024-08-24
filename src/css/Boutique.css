@@ -1,0 +1,28 @@
+* {
+    align-items: center;
+    justify-content: center;
+}
+
+.big-title-boutique {
+    margin: 40px;
+    box-sizing: border-box;
+    padding: 0px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Search {
+    align-items: center;
+    margin: auto;
+}
+
+.input-boutique {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}

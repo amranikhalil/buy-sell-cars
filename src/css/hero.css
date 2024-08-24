@@ -1,0 +1,96 @@
+.big-box {
+    padding: 30px 10%;
+    height: 550px;
+    width: auto;
+    background-color: #F5F5F5;
+    display: inline-flex;
+    gap: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.right-side {
+    flex: 5;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.small-blue-text {
+    color: #1959D6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.big-text {
+    width: 550px;
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.small-text {
+    width: 533px;
+    height: 56px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.herocar {
+    width: 6000px;
+    background-color: #152037;
+}
+
+.action-right-button {
+    display: flex;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+.button-getstarted {
+    border-radius: 5px;
+    background: #1959D6;
+    display: flex;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-login {
+    display: flex;
+    width: 119px;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #000;
+}
+
+
+
+.getstarted-text {
+    color: white;
+    font-weight: 400;
+}
